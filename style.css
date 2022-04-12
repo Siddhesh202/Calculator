@@ -1,0 +1,100 @@
+#calculator{
+    height: 650px;
+    width: 400px;
+    border: 4px solid black;
+    margin: auto;
+
+}
+
+/* Button Color classes */
+.maroon{
+    background-color: maroon;
+}
+
+.silk{
+    background-color: cornsilk;
+}
+
+.white{
+    color: white;
+}
+
+/* Display Container */
+
+#display{
+    height: 150px;
+    width: 400px;
+    background-color: rgba(211, 211, 211, 0.356);
+    font-size: 80px;
+    text-align: right;
+    box-sizing: border-box;
+    padding-top: 70px;
+}
+
+/* Buttons */
+#button-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.button{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid grey;
+}
+
+#imp{
+    width: 200px;
+}
+
+span{
+    font-size: 50px;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+span:hover{
+    cursor: pointer;
+}
+
+/*  Padding Different Buttons */
+
+.padd_AC{
+    padding-left: 14px;
+    padding-top: 20px;
+}
+
+.padd_expo{
+    padding-left: 35px;
+    padding-top: 18px;
+    font-size: 60px;
+}
+
+.padd_mod{
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.padd_num{
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+.padd_oper{
+    padding-left: 35px;
+    padding-top: 20px;
+}
+
+.padd_diff{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.padd_zero{
+    padding-left: 85px;
+    padding-top: 19px;
+}
+
